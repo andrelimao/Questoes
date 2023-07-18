@@ -1,5 +1,10 @@
 package primeirodesafio;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
+
 public class PrimeiroDesafio {
 	
 	public static void main(String[] args) {
@@ -9,7 +14,7 @@ public class PrimeiroDesafio {
 		System.out.println("Insira quantos números serão digitados");
 		int n = input.nextInt();
 		int[] arr = new int[n];
-		for(int i = 0; i<=arr.length;i++) {
+		for(int i = 0; i<arr.length;i++) {
 			System.out.println("Insira os números:");
 			arr[i] = input.nextInt();
 			if(arr[i] % 2 == 0) {

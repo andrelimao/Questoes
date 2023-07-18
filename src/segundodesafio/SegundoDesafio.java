@@ -1,5 +1,7 @@
 package segundodesafio;
 
+import java.util.Scanner;
+
 public class SegundoDesafio {
 	public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);

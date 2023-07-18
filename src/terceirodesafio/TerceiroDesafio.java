@@ -21,15 +21,16 @@ public class TerceiroDesafio {
 	}
 	
 	for(int i = 0; i<arr.length; i++) {
-		for(int j = i+1; i<arr.length-1; i++) {
+		for(int j = i+1; i<arr.length-1; j++) {
 			if (arr[i] - arr[j] == k|| arr[j]-arr[i] == k){
 				contador ++;
 				
 			}
 			
 		}
-	System.out.println("O número de pares é:" contador);
+	System.out.println("O número de pares é:" + contador);
 	}
 
 }
+	}
   
